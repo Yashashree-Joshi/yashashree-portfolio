@@ -115,15 +115,17 @@ export function Projects() {
                   <span className="text-xs font-mono text-[#468A9A] bg-[#468A9A]/10 px-2 py-1 rounded">
                     {selectedProject.category}
                   </span>
-                  <span className={`text-xs px-2 py-1 rounded border ${
-                    selectedProject.status === "Completed" ? "border-white/50 text-[#EEEEEE]" :
-                    selectedProject.status === "Active" ? "bg-[#468A9A]/20 border-[#468A9A]/20 text-[#468A9A]" :
-                    selectedProject.status === "In Progress" ? "bg-[#468A9A] text-[#EEEEEE] border-transparent" :
-                    selectedProject.status === "Research" ? "bg-[#541212]/20 border-transparent text-[#541212]" :
-                    "border-[#541212] text-[#541212]" /* Experimental */
-                  }`}>
-                    {selectedProject.status}
-                  </span>
+                 <span
+  className={`text-xs px-2 py-1 rounded border ${
+    selectedProject.status === "Completed"
+      ? "border-white/50 text-[#EEEEEE]"
+      : selectedProject.status === "In Progress"
+      ? "bg-[#468A9A] text-[#EEEEEE] border-transparent"
+      : "border-[#541212] text-[#541212]"
+  }`}
+>
+  {selectedProject.status}
+</span>
                 </div>
                 <button 
                   onClick={() => setSelectedProject(null)}

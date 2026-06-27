@@ -3,17 +3,22 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Sparkles, X, Send, Bot } from "lucide-react";
 
 const suggestions = [
-  "Who is Yashashree?",
-  "Tell me about her projects",
-  "What research has she done?",
-  "What technologies does she know?"
+  "Tell me about LunaOS",
+  "Explain your IEEE paper",
+  "Which project are you most proud of?",
+  "What technologies do you work with?",
+  "Tell me about your research",
+  "Why should we hire you?"
 ];
 
 export function AskMeAnything() {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [messages, setMessages] = useState<{role: "user" | "ai", text: string}[]>([
-    { role: "ai", text: "Hello! I'm Yashashree's digital assistant. Ask me anything about her work, research, or background." }
+   {
+  role: "ai",
+  text: "Hi! 👋 I'm Astra, Yashashree's AI portfolio assistant. I can tell you about her projects, research, technical skills, publications, and engineering journey. Try one of the suggested questions below."
+}
   ]);
 
   const handleSubmit = (e: React.FormEvent, text?: string) => {
@@ -26,16 +31,50 @@ export function AskMeAnything() {
 
     // Simulate AI response
     setTimeout(() => {
-      let reply = "I'm a static portfolio right now, but soon I'll be wired up to a real backend to answer that!";
-      if (submitText.toLowerCase().includes("who is")) {
-        reply = "Yashashree is an AI engineer, researcher, and systems thinker who loves building complex, elegant digital experiences.";
-      } else if (submitText.toLowerCase().includes("projects")) {
-        reply = "She has built projects ranging from Neural Architects to high-frequency trading databases. Check out the Projects section!";
-      } else if (submitText.toLowerCase().includes("research")) {
-        reply = "Her research focuses on graph-based attention mechanisms and robust Byzantine consensus protocols.";
-      } else if (submitText.toLowerCase().includes("tech")) {
-        reply = "She works with Python, PyTorch, C++, Rust, React, and WebGL, among others.";
-      }
+   let reply =
+  "I'm currently being connected to Astra's knowledge base. Soon I'll be able to answer detailed questions about projects, research, and technical work.";
+
+const q = submitText.toLowerCase();
+
+if (q.includes("who") || q.includes("introduce") || q.includes("about you")) {
+  reply =
+    "Yashashree Joshi is an AI and Software Engineering student passionate about Operating Systems, Artificial Intelligence, Healthcare Technology, and Research. She enjoys building technology that solves real-world problems while continuously exploring systems programming, machine learning, and intelligent software architecture.";
+}
+
+else if (q.includes("project")) {
+  reply =
+    "Yashashree has built projects across multiple domains including Operating Systems (LunaOS), Healthcare AI (Guardian Intercept Dementia, MindCare AI), Explainable Medical AI, Full-Stack Web Development, and C++ software systems.";
+}
+
+else if (q.includes("research")) {
+  reply =
+    "Her research focuses on Healthcare AI, Explainable Artificial Intelligence, Operating System Architecture, Planetary Data Sonification, and Intelligent Disaster Response Systems. She has also published research through IEEE.";
+}
+
+else if (q.includes("ieee") || q.includes("paper") || q.includes("publication")) {
+  reply =
+    "Yashashree published her first IEEE conference paper at IEEE I2ITCON 2025. The research presents Guardian Intercept Dementia, an intelligent assistive system designed to improve dementia care through AI-powered reminders, geo-fencing, and caregiver support.";
+}
+
+else if (q.includes("skill") || q.includes("technology") || q.includes("tech") || q.includes("language")) {
+  reply =
+    "Her primary technologies include C++, Python, TypeScript, React, FastAPI, PyTorch, Ollama, PHP, MySQL, JavaScript, SQL, Git, Linux, and Operating System development.";
+}
+
+else if (q.includes("experience") || q.includes("internship")) {
+  reply =
+    "She has worked as an AI Research Trainee at Ingnious while actively contributing to research projects, healthcare AI solutions, and open-source learning initiatives.";
+}
+
+else if (q.includes("goal") || q.includes("future")) {
+  reply =
+    "Her long-term goal is to build intelligent systems that genuinely improve people's lives—from operating systems and healthcare AI to research-driven software engineering.";
+}
+
+else if (q.includes("hire")) {
+  reply =
+    "Yashashree combines software engineering, AI, research, and systems programming with a strong passion for solving meaningful real-world problems. She enjoys learning difficult concepts by building practical projects from scratch.";
+}
       setMessages(prev => [...prev, { role: "ai", text: reply }]);
     }, 600);
   };

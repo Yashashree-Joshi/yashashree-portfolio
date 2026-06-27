@@ -23,51 +23,106 @@ export const achievementCategories: AchievementCategory[] = [
     color: "#541212",
     cx: 20, cy: 25,
     items: [
-      { id: "r1", title: "ASPLOS Publication", description: "Memory latency optimization in sparse neural networks.", date: "2021" },
-      { id: "r2", title: "NeurIPS Spotlight", description: "Graph-based attention mechanisms selected for spotlight presentation.", date: "2023" },
-      { id: "r3", title: "System Architecture Paper", description: "Novel OS scheduling for heterogeneous compute.", date: "2022" },
-    ]
+  {
+    id: "r1",
+    title: "IEEE I2ITCON Publication",
+    description: "Published my first IEEE conference paper on Guardian Intercept Dementia in IEEE Xplore.",
+    date: "2025"
+  },
+  {
+    id: "r2",
+    title: "Venus Sonification",
+    description: "Ongoing research exploring planetary data sonification for scientific accessibility.",
+    date: "Ongoing"
+  },
+  {
+    id: "r3",
+    title: "DRT ALIES",
+    description: "Developing an AI-assisted disaster response and intelligent alert framework.",
+    date: "Ongoing"
+  }
+]
   },
   {
     id: "competitions",
     label: "Competitions",
     color: "#468A9A",
     cx: 65, cy: 20,
-    items: [
-      { id: "c1", title: "Hackathon Winner", description: "Built an AI-powered triage system in 24 hours.", date: "2022" },
-      { id: "c2", title: "Kaggle Top 5%", description: "NLP competition — sentiment analysis at scale.", date: "2023" },
-      { id: "c3", title: "ACM ICPC Regional", description: "Competitive programming regional qualifier.", date: "2021" },
-    ]
+   items: [
+  {
+    id: "c1",
+    title: "ICSC Achievement",
+    description: "ICSC 2025 Finalist Secured 2nd place globally for C programming runtime performance in the ICSC Competitive Programming Code Submission Semi-Final problem A1 and 13th place in the problem B1.Achieved 14th place internationally in the ICSC Qualification Round for C programming runtimePerformance for problem B .",
+    date: "2025"
+  },
+  {
+     id: "c2",
+    title: "AWS AI for Bharat Hackathon",
+    description: "Led Team Bot Catalyst and developed MindCare AI, a voice-based cognitive healthcare assistant designed to improve healthcare accessibility for elderly individuals, caregivers, and underserved rural communities.",
+    date: "2025"
+  },
+  {
+    id: "c3",
+    title: "Alzheimer's MRI Challenge",
+    description: "Built a leak-free explainable AI pipeline using EfficientNet and Grad-CAM for dementia classification.",
+    date: "2026"
+  }
+]
   },
   {
     id: "open_source",
     label: "Open Source",
     color: "#EEEEEE",
     cx: 45, cy: 65,
-    items: [
-      { id: "o1", title: "Quantum Ledger", description: "Lightweight consensus mechanism for IoT. 2k+ GitHub stars.", date: "2022" },
-      { id: "o2", title: "OSS Contributions", description: "Contributor to PyTorch and Triton compiler.", date: "2023" },
-    ]
+   items: [
+  {
+    id: "o1",
+    title: "ML for Research",
+    description: "Building an open-source roadmap helping beginners transition from ML fundamentals to research.",
+    date: "2026"
+  },
+  {
+    id: "o2",
+    title: "LunaOS",
+    description: "Developing an educational operating system to explore systems programming and kernel architecture.",
+    date: "Ongoing"
+  }
+]
   },
   {
     id: "leadership",
     label: "Leadership",
     color: "#468A9A",
     cx: 78, cy: 60,
-    items: [
-      { id: "l1", title: "Technical Lead", description: "Led a 6-person team building distributed ML pipelines.", date: "2023" },
-      { id: "l2", title: "Mentorship Program", description: "Mentored 12 junior engineers in systems and AI.", date: "2024" },
-    ]
+   items: [
+  {
+    id: "l1",
+    title: "Vishnova Core Team",
+    description: "Contributed to organizing and managing technical initiatives, collaborating with teams to execute events and promote innovation.",
+    date: "2026"
+  },
+  {
+    id: "l2",
+    title: "Technophilia Volunteer And Organizer",
+    description: "Actively participated in organizing technical events, coordinating activities, and supporting event execution.",
+    date: "2025"
+  }
+]
   },
   {
     id: "certifications",
-    label: "Certifications",
+    label: "Experience",
     color: "#EEEEEE",
     cx: 20, cy: 72,
-    items: [
-      { id: "cert1", title: "Deep Learning Specialization", description: "Andrew Ng — Coursera.", date: "2021" },
-      { id: "cert2", title: "Systems Design Expert", description: "Architecting for scale — distributed systems.", date: "2022" },
-    ]
+     items: [
+    {
+      id: "e1",
+      title: "AI Research Trainee",
+      description: "Worked as an AI Research Trainee at Ingnious AI, contributing to machine learning research, model development, literature review, Facial point Detection model analysis and AI-driven solutions for real-world applications.",
+      date: "2025"
+     
+    }
+  ]
   }
 ];
 

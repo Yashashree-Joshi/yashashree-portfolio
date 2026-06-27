@@ -2,35 +2,67 @@ import { Research } from "../types";
 
 export const research: Research[] = [
   {
-    id: "res-1",
-    title: "Beyond Transformers: Exploring Graph-based Attention Mechanisms",
-    conference: "NeurIPS 2023",
-    abstract: "This paper introduces a novel approach to attention mechanisms by modeling sequences as dynamic graphs. We demonstrate that this architecture achieves comparable performance to standard transformers while reducing computational complexity by 40% on long-context tasks. Our methodology provides theoretical guarantees for convergence in bounded time.",
-    pdfUrl: "https://example.com/paper.pdf",
-    github: "https://github.com/placeholder",
-    presentation: "https://example.com/slides"
-  },
+  id: "res-1",
+
+  title: "Guardian Intercept Dementia: An Intelligent Assistive System for Dementia Care",
+
+  conference: "IEEE I2ITCON 2025 • Published in IEEE Xplore",
+
+  abstract:
+    "Published at IEEE I2ITCON 2025, this research proposes an intelligent assistive system that improves the quality of life for individuals living with dementia while reducing caregiver burden. The proposed framework integrates persistent voice-assisted reminders, intelligent task scheduling, geo-fencing, and automated caregiver notifications to support patient independence while ensuring timely intervention whenever assistance is required.",
+
+  pdfUrl: "https://ieeexplore.ieee.org/document/11210616",
+
+  github: "",
+
+  presentation: "/presentations/Blue White and Gray Modern Medical Presentation.pdf"
+},
+ {
+  id: "res-2",
+
+  title: "Venus Sonification: Translating Planetary Data into Interactive Audio",
+
+  conference: "Ongoing Research",
+
+  abstract:
+    "An ongoing research project exploring the sonification of planetary datasets from Venus to transform scientific measurements into meaningful auditory representations. The research investigates how sound can improve scientific exploration, accessibility, and educational engagement by enabling users to perceive complex planetary data through interactive audio experiences.",
+
+  pdfUrl: "",
+
+  github: "",
+
+  presentation: ""
+},
+ {
+  id: "res-3",
+
+  title: "DRT ALIES: AI-Driven Disaster Response and Alert Intelligence System",
+
+  conference: "Ongoing Research",
+
+  abstract:
+    "DRT ALIES is an ongoing research project focused on developing an intelligent disaster response framework that combines artificial intelligence, real-time situational awareness, and predictive analytics to support emergency management. The proposed system aims to assist authorities in monitoring critical events, prioritizing emergency responses, and improving decision-making during natural disasters through data-driven insights and intelligent alert generation.",
+
+  pdfUrl: "",
+
+  github: "",
+
+  presentation: ""
+},
   {
-    id: "res-2",
-    title: "Robust Byzantine Consensus for Low-Power Edge Devices",
-    conference: "SOSP 2022",
-    abstract: "We propose a lightweight Byzantine Fault Tolerant protocol specifically designed for environments with high node churn and low computational power. By decoupling the transaction ordering from state execution, we achieve a 3x throughput increase compared to traditional BFT systems in simulated IoT networks.",
-    pdfUrl: "https://example.com/paper2.pdf",
-    poster: "https://example.com/poster.pdf"
-  },
-  {
-    id: "res-3",
-    title: "Generative World Models for Autonomous Navigation",
-    conference: "ICLR 2023",
-    abstract: "Autonomous navigation systems often struggle with out-of-distribution scenarios. We developed a generative world model that simulates realistic edge cases during training, leading to a 25% improvement in zero-shot transfer learning for autonomous agents in urban environments.",
-    pdfUrl: "https://example.com/paper3.pdf",
-    github: "https://github.com/placeholder2"
-  },
-  {
-    id: "res-4",
-    title: "Optimizing Memory Latency in Sparse Neural Networks",
-    conference: "ASPLOS 2021",
-    abstract: "Sparse neural networks present unique challenges for modern hardware accelerators due to irregular memory access patterns. This paper details a novel hardware-software co-design that reorders sparse matrix operations to maximize cache hit rates, yielding significant performance gains.",
-    pdfUrl: "https://example.com/paper4.pdf"
-  }
+  id: "res-4",
+
+  title: "Next-Generation Operating System Architecture for Intelligent Computing",
+
+  conference: "Independent Ongoing Research",
+
+  abstract:
+    "An ongoing research initiative exploring modern operating system architecture for intelligent computing environments. Building upon the practical development of LunaOS, this research investigates modular kernel design, efficient memory management, secure process isolation, and AI-assisted system optimization. The long-term objective is to design an operating system architecture that balances performance, security, extensibility, and intelligent resource management for future computing platforms.",
+
+  pdfUrl: "",
+
+  github: "",
+
+  presentation: ""
+}
 ];

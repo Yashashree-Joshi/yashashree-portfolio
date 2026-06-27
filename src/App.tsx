@@ -11,6 +11,7 @@ import { AskMeAnything } from "./components/AskMeAnything";
 
 import { Hero } from "./sections/Hero";
 import { Journey } from "./sections/Journey";
+import { AstraStack } from "./sections/AstraStack";
 import { Projects } from "./sections/Projects";
 import { Research } from "./sections/Research";
 import { Achievements } from "./sections/Achievements";
@@ -33,6 +34,7 @@ function App() {
           <main>
             <Hero />
             <Journey />
+            <AstraStack />
             <Projects />
             <Research />
             <Achievements />

@@ -2,14 +2,70 @@ import { motion } from "framer-motion";
 import { Mail, Github, Linkedin, FileText, Code, Network } from "lucide-react";
 
 const links = [
-  { id: "email", icon: Mail, label: "Email", handle: "hello@yashashree.ai", url: "mailto:hello@example.com" },
-  { id: "github", icon: Github, label: "GitHub", handle: "@yashashree", url: "https://github.com" },
-  { id: "linkedin", icon: Linkedin, label: "LinkedIn", handle: "/in/yashashree", url: "https://linkedin.com" },
-  { id: "resume", icon: FileText, label: "Resume", handle: "View PDF", url: "#" },
-  { id: "leetcode", icon: Code, label: "LeetCode", handle: "@yashashree_codes", url: "https://leetcode.com" },
-  { id: "kaggle", icon: Network, label: "Kaggle", handle: "@yashashree_ml", url: "https://kaggle.com" },
-];
+  {
+    id: "email",
+    icon: Mail,
+    label: "Email",
+    handle: "yashashree0102@gmail.com",
+    url: "mailto:yashashree0102@gmail.com"
+  },
 
+  {
+    id: "github",
+    icon: Github,
+    label: "GitHub",
+    handle: "@Yashashree-Joshi",
+    url: "https://github.com/Yashashree-Joshi"
+  },
+
+  {
+    id: "linkedin",
+    icon: Linkedin,
+    label: "LinkedIn",
+    handle: "/in/Yashashree Joshi",
+    url: "https://www.linkedin.com/in/yashashree-joshi-1706832b1/"
+  },
+
+  {
+    id: "resume",
+    icon: FileText,
+    label: "Resume",
+    handle: "Download PDF",
+    url: "public/presentations/Yashashree_Joshi_Resume_Final.pdf"
+  },
+
+  {
+    id: "codolio",
+    icon: Network,
+    label: "Codolio",
+    handle: "Developer Portfolio",
+    url: "https://codolio.com/profile/yashashree"
+  },
+
+  {
+    id: "leetcode",
+    icon: Code,
+    label: "LeetCode",
+    handle: "@oops01",
+    url: "https://codolio.com/profile/yashashree"
+  },
+
+  {
+    id: "hackerrank",
+    icon: Code,
+    label: "HackerRank",
+    handle: "@yashashree0102",
+    url: "https://www.hackerrank.com/profile/yashashree0102"
+  },
+
+  {
+    id: "kaggle",
+    icon: Network,
+    label: "Kaggle",
+    handle: "@yashashree01",
+    url: "https://www.kaggle.com/yashashree01"
+  }
+];
 export function Connect() {
   return (
     <section id="connect" className="relative py-24 mb-20">

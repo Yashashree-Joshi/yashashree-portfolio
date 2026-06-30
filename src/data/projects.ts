@@ -91,7 +91,7 @@ export const projects: Project[] = [
     "Google Colab"
   ],
   status: "Completed",
-  github: "YOUR_GITHUB_LINK",
+  github: "https://github.com/Yashashree-Joshi/Alzheimers_Detection",
   images: [],
   features: [
     "Leak-free MRI pipeline with filename-level deduplication",
@@ -133,7 +133,7 @@ export const projects: Project[] = [
 
   status: "In Progress",
 
-  github: "YOUR_GITHUB_LINK",
+  github: "https://github.com/Yashashree-Joshi/machine-learning-research-roadmap",
 
   images: [],
 
@@ -200,21 +200,21 @@ export const projects: Project[] = [
 },
   {
   id: "proj-6",
-  title: "Parking Management System (C++)",
+  title: "Parking Management System (C)",
   category: "Systems",
   description:
-    "A console-based parking management application developed in C++ to automate vehicle entry, exit, parking allocation, and billing while strengthening object-oriented programming and data management concepts.",
+    "A console-based parking management application developed in C to automate vehicle entry, exit, parking allocation, and billing while strengthening object-oriented programming and data management concepts.",
 
   techStack: [
-    "C++",
-    "OOP",
-    "STL",
+    "C",
+    "Arrys",
+    "Loops",
     "File Handling"
   ],
 
   status: "Completed",
 
-  github: "",
+  github: "https://github.com/Yashashree-Joshi/Parking-Management-c",
 
   images: [],
 
@@ -256,7 +256,7 @@ export const projects: Project[] = [
 
   status: "Completed",
 
-  github: "YOUR_GITHUB_LINK",
+  github: "Yhttps://github.com/Yashashree-Joshi/Parking-Management-Web",
 
   images: [],
 
@@ -301,7 +301,7 @@ export const projects: Project[] = [
 
   status: "Completed",
 
-  github: "YOUR_GITHUB_LINK",
+  github: "https://github.com/Yashashree-Joshi/Recipe-Recommendation",
 
   images: [],
 
